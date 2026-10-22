@@ -49,7 +49,7 @@ None of these applications are built from source.
 |-|-|-|
 | [Plants Vs. Zombies: Fusion (Translated)](https://github.com/Teyliu/PVZF-Translation) | 4.0.5.2_alpha | ✅ |
 | [Source2Viewer](https://github.com/ValveResourceFormat/ValveResourceFormat) | 20.1 | ✅ GUI |
-| [Blender](https://www.blender.org/) | TODO | ❌ CUDA |
+| [Blender](https://www.blender.org/) | 5.2.3 | ✅ CUDA |
 
 
 ## [License](#license)
