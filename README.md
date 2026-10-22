@@ -11,9 +11,12 @@ Feel free to contribute by updating outdated programs, or adding new programs.
 > Only x86_64-linux at the moment.
 
 To run a program, you can just use `nix run`!
+
 `nix run github:vulae/nix-missing#pvz-fusion` / `nix run .#pvz-fusion`
 
+
 To install a program, include nix-missing in your flake!
+
 ```nix
 inputs = {
     # ...
@@ -21,7 +24,9 @@ inputs = {
     # ...
 };
 ```
+
 Then install it like any other nix program!
+
 ```nix
 {
     pkgs,
@@ -38,9 +43,16 @@ Then install it like any other nix program!
 
 ## [Table](#table)
 
+None of these applications are built from source.
+
 | Application | Version | Support |
 |-|-|-|
 | [Plants Vs. Zombies: Fusion (Translated)](https://github.com/Teyliu/PVZF-Translation) | 4.0.5.2_alpha | ✅ |
 | [Source2Viewer](https://github.com/ValveResourceFormat/ValveResourceFormat) | 20.1 | ✅ GUI |
 | [Blender](https://www.blender.org/) | TODO | ❌ CUDA |
+
+
+## [License](#license)
+
+`MIT-0` / `MIT No Attribution` i.e. Literally do anything you want with it lol
 
