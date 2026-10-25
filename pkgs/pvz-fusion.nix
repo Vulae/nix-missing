@@ -59,6 +59,13 @@
                     cd "$INSTALL_DIR/${winAppDir}"
                     exec wine "$INSTALL_DIR/${winAppExe}"
                 '';
+                meta = {
+                    name = "Plats Vs. Zombies: Fusion (Translated)";
+                    version = gameVersion;
+                    homepage = "https://github.com/Teyliu/PVZF-Translation";
+                    # PVZF-Translated is CC-BY-NC-4.0, & the original game I could not find one.
+                    license = (with pkgs.lib.licenses; [ cc-by-nc-40 unfree ]);
+                };
             };
 
             desk = pkgs.makeDesktopItem {

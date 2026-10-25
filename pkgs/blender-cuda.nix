@@ -49,7 +49,13 @@
                     cp $out/libexec/blender/blender.desktop $out/share/applications/blender.desktop
                     cp $out/libexec/blender/blender.svg $out/share/icons/hicolor/scalable/apps/blender.svg
                 '';
-                meta.mainProgram = "blender";
+                meta = {
+                    name = "Blender";
+                    description = "Blender with CUDA support";
+                    version = programVersion;
+                    homepage = "https://www.blender.org/";
+                    license = (with pkgs.lib.licenses; [ gpl2Plus unfree ]);
+                };
             };
         in
         {

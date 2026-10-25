@@ -4,6 +4,7 @@
 }: {
     perSystem = { pkgs, ... }:
         let
+            programVersion = "20.1";
             programUrl = "https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/20.1/Source2Viewer.exe";
             programHash = "sha256-tBsoxuo9kmD3ErmE8DgiWabVfx4N/3xcj7GxdUMvO8s=";
 
@@ -52,6 +53,13 @@
                     cd "$PROGRAM_DIR"
                     exec wine ${programExe}
                 '';
+                meta = {
+                    name = "Source 2 Viewer";
+                    description = "Source 2 Viewer GUI";
+                    version = programVersion;
+                    homepage = "https://s2v.app/";
+                    license = pkgs.lib.licenses.mit;
+                };
             };
         in
         {
