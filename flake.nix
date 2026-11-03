@@ -13,6 +13,7 @@
                 ./pkgs/pvz-fusion.nix
                 ./pkgs/source2-viewer.nix
                 ./pkgs/blender-cuda.nix
+                ./pkgs/deadlock-mod-manager.nix
             ];
         };
 }
