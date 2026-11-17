@@ -9,6 +9,12 @@
     outputs = inputs @ { self, nixpkgs, flake-parts }:
         flake-parts.lib.mkFlake { inherit inputs; } {
             systems = [ "x86_64-linux" ];
+            perSystem = { system, ... }: {
+                _module.args.pkgs = import nixpkgs {
+                    inherit system;
+                    config.allowUnfree = true;
+                };
+            };
             imports = [
                 ./pkgs/pvz-fusion.nix
                 ./pkgs/source2-viewer.nix
