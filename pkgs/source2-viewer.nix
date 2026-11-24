@@ -4,9 +4,9 @@
 }: {
     perSystem = { pkgs, ... }:
         let
-            programVersion = "20.1";
-            programUrl = "https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/20.1/Source2Viewer.exe";
-            programHash = "sha256-tBsoxuo9kmD3ErmE8DgiWabVfx4N/3xcj7GxdUMvO8s=";
+            programVersion = "21.1";
+            programUrl = "https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/21.1/Source2Viewer.exe";
+            programHash = "sha256-3/RtNahd4y4tn6VAKEZNFGFWkzxk/rzllypxPbSwERc=";
 
             programExe = pkgs.fetchurl {
                 url = programUrl;

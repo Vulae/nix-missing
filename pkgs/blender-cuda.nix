@@ -6,11 +6,11 @@
     perSystem = { pkgs, ... }:
         let
             app = pkgs.stdenv.mkDerivation (finalAttrs: {
-                programVersion = "5.2.3";
-                programUrl = "https://download.blender.org/release/Blender5.2/blender-5.2.3-linux-x64.tar.xz";
-                programHash = "sha256-eEhsAYtEQ+/l51q1TCkO2MFauv0km4YsLJziUwqRjuw=";
+                programVersion = "5.3.0";
+                programUrl = "https://download.blender.org/release/Blender5.3/blender-5.3.0-linux-x64.tar.xz";
+                programHash = "sha256-2suCZBl6P3/aYAEoWlpQb8l+6UOIEmHCw71jyILyLgU=";
                 # TODO: Better name for this, IDK what to name it.
-                programVersion2 = "5.2";
+                programVersion2 = "5.3";
 
                 # WARNING: ABSOLUTELY BROKEN!!!!!
                 # Install addons declaratively

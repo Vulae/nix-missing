@@ -59,11 +59,11 @@ None of these applications are built from source.
 | Application | Version | Support | Note |
 |-|-|-|-|
 | [Plants Vs. Zombies: Fusion (Translated)](https://github.com/Teyliu/PVZF-Translation) | 4.0.5.2_alpha | ✅ | |
-| [Source2Viewer](https://github.com/ValveResourceFormat/ValveResourceFormat) | 20.1 | ✅ GUI | GUI is Windows only, nixpkgs version is CLI only |
-| [Blender](https://www.blender.org/) | 5.2.3 | ✅ CUDA | nixpkgs version doesn't have CUDA support |
+| [Source2Viewer](https://github.com/ValveResourceFormat/ValveResourceFormat) | 21.1 | ✅ GUI | GUI is Windows only, nixpkgs version is CLI only |
+| [Blender](https://www.blender.org/) | 5.3.0 | ✅ CUDA | nixpkgs version doesn't have CUDA support |
 | [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website) | 8873 | ❌ | gmod, tf2, portal2, l4d2, 2013sp |
 | [deadlock-mod-manager](https://github.com/deadlock-mod-manager/deadlock-mod-manager) | 2.3.0 | ✅ | TEMP, BCUZ nixpkgs IS VERY OUTDATED, AND USING `nix run github:deadlock-mod-manager/deadlock-mod-manager` TAKES AN HOUR |
-| [MareTF](https://github.com/craftablescience/MareTF) | v0.12.3 | ✅ | |
+| [MareTF](https://github.com/craftablescience/MareTF) | 0.12.3 | ✅ | |
 
 
 ## [License](#license)
