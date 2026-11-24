@@ -63,6 +63,7 @@ None of these applications are built from source.
 | [Blender](https://www.blender.org/) | 5.2.3 | ✅ CUDA | nixpkgs version doesn't have CUDA support |
 | [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website) | 8873 | ❌ | gmod, tf2, portal2, l4d2, 2013sp |
 | [deadlock-mod-manager](https://github.com/deadlock-mod-manager/deadlock-mod-manager) | 2.3.0 | ✅ | TEMP, BCUZ nixpkgs IS VERY OUTDATED, AND USING `nix run github:deadlock-mod-manager/deadlock-mod-manager` TAKES AN HOUR |
+| [MareTF](https://github.com/craftablescience/MareTF) | v0.12.3 | ✅ | |
 
 
 ## [License](#license)
